@@ -48,6 +48,8 @@ if (!defined('ABSPATH')) {
     define('ABSPATH', dirname(__FILE__) . '/');
 }
 
+
+
 // Try environment variable 'WP_ENV'
 if (getenv('WP_ENV') !== false) {
     // Filter non-alphabetical characters for security
@@ -103,9 +105,12 @@ if (!defined('WP_HOME')) {
 }
 
 // Define W3 Total Cache hostname
+/*
 if (defined('WP_CACHE')) {
     define('COOKIE_DOMAIN', $hostname);
 }
+*/
+
 
 // Clean up
 unset($hostname, $protocol);
