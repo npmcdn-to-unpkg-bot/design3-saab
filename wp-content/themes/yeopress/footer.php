@@ -45,7 +45,7 @@ console.log('first')
     <script type="text/javascript">
     	console.log('footer')
     </script>
-    <script src="https://npmcdn.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4.1/dist/masonry.pkgd.min.js"></script>
 		<?php wp_footer() ?>
 
 
